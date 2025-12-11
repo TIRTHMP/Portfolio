@@ -6,7 +6,7 @@
 - **Accessibility** - ARIA labels, keyboard navigation, semantic HTML
 - **Performance Optimized** - Lazy loading, deferred scripts, external assets
 - **PWA Ready** - Manifest file for progressive web app capabilities
-- **Project Showcase** - 10 AI/ML projects with detailed descriptions
+<!-- - **Project Showcase** - 10 AI/ML projects with detailed descriptions -->
 - **Certifications Display** - Timeline view of achievements
 - **Contact Section** - Multiple ways to get in touch
 
@@ -29,7 +29,7 @@
 ## 📂 Project Structure
 
 ```
-Nikhil-Portfolio/
+Portfolio-main/
 ├── index.html          # Main HTML file
 ├── style.css           # Custom CSS styles
 ├── scripts.js          # JavaScript functionality
@@ -43,14 +43,12 @@ Nikhil-Portfolio/
 └── README.md           # Documentation
 ```
 
----
-
-## 📸 Screenshots
+<!-- ## 📸 Screenshots -->
 
 <!-- Add screenshots of your portfolio here -->
 <!-- Example: -->
 <!-- ![Screenshot](assets/screenshot.png) -->
-</br>
+<!-- </br> -->
 
 ---
 
@@ -64,12 +62,12 @@ Nikhil-Portfolio/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/N1KH1LT0X1N/Nikhil-Portfolio.git
+   git clone https://github.com/TIRTHMP/Portfolio-main.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd Nikhil-Portfolio
+   cd Portfolio-main
    ```
 
 3. **Option 1: Simple HTTP Server (Python)**
@@ -88,7 +86,7 @@ Nikhil-Portfolio/
    Simply double-click `index.html` to open in your default browser
 
 ---
-
+<!--
 ## 🚀 Deployment
 
 ### GitHub Pages
@@ -103,7 +101,7 @@ Nikhil-Portfolio/
 - **Cloudflare Pages**: Connect your GitHub account and select the repo
 
 ---
-
+-->
 ## ✨ Key Features Implemented
 
 ### Performance Optimizations
@@ -159,7 +157,7 @@ Gradient colors are defined in the CSS. Main theme colors:
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/N1KH1LT0X1N/Nikhil-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/TIRTHMP/Portfolio-main/issues).
 
 ### How to Contribute
 1. Fork the project
@@ -172,9 +170,9 @@ Feel free to check the [issues page](https://github.com/N1KH1LT0X1N/Nikhil-Portf
 
 ## 📬 Contact
 
-- **Email:** [nikhilpise2006@gmail.com](mailto:nikhilpise2006@gmail.com)
-- **LinkedIn:** [linkedin.com/in/nikhil-pravin-pise](https://www.linkedin.com/in/nikhil-pravin-pise/)
-- **GitHub:** [github.com/N1KH1LT0X1N](https://github.com/N1KH1LT0X1N)
+- **Email:** [tirthmpatel25@gmail.com](mailto:tirthmpatel25@gmail.com)
+- **LinkedIn:** [linkedin.com/in/tirth-p-b46aab32a](https://www.linkedin.com/in/tirth-p-b46aab32a/)
+- **GitHub:** [github.com/TIRTHMP](https://github.com/TIRTHMP)
 
 ---
 
@@ -193,7 +191,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 - All open-source contributors
 
 ---
-
+<!--
 ## 📊 Project Stats
 
 - **Total Projects:** 10 AI/ML implementations
@@ -202,6 +200,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 - **Lines of Code:** ~1500+
 
 ---
+-->
+> Made with ❤️ by Tirth Patel | Computer Science Sophomore | AI/ML Enthusiast
 
-> Made with ❤️ by Nikhil Pise | Data Science Sophomore | ML Enthusiast
 
