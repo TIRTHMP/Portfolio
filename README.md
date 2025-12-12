@@ -86,7 +86,7 @@ Portfolio-main/
    Simply double-click `index.html` to open in your default browser
 
 ---
-<!--
+
 ## 🚀 Deployment
 
 ### GitHub Pages
@@ -101,7 +101,7 @@ Portfolio-main/
 - **Cloudflare Pages**: Connect your GitHub account and select the repo
 
 ---
--->
+
 ## ✨ Key Features Implemented
 
 ### Performance Optimizations
@@ -202,5 +202,6 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 ---
 -->
 > Made with ❤️ by Tirth Patel | Computer Science Sophomore | AI/ML Enthusiast
+
 
 
