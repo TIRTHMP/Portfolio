@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // GitHub Stats Fetcher
 async function fetchGitHubStats() {
-    const username = 'N1KH1LT0X1N';
+    const username = 'TIRTHMP';
     
     try {
         const response = await fetch(`https://api.github.com/users/${username}`);
