@@ -109,12 +109,6 @@ html {
 	--particle-line: #2563eb;
 }
 
-/* light theme */
-body.light {
-  --bg-color: #fff;
-  --text-color: #000;
-}
-
 /* Apply the variables */
 body {
   background-color: var(--bg-color);
@@ -124,10 +118,6 @@ body {
 
 #particles-js {
 	transition: opacity 0.3s ease;
-}
-
-[data-theme="light"] #particle-js {
-	opacity: 0.35;
 }
 
 /* Icon morph animation */
@@ -180,5 +170,31 @@ body {
 /* Glow for sun (light mode) */
 [data-theme="light"] #icon-sun {
   filter: drop-shadow(0 0 6px rgba(37, 99, 235, 0.6));
+}
+
+/* ===============================
+   Theme Variables
+================================ */
+
+/* Default DARK theme */
+:root {
+  --bg-color: #0a0a0a;
+  --text-color: #e5e7eb;
+  --particle-color: #22d3ee;
+  --particle-line: #22d3ee;
+}
+
+/* LIGHT theme */
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #1f2937;
+  --particle-color: #2563eb;
+  --particle-line: #2563eb;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
