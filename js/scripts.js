@@ -179,6 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.documentElement.setAttribute("data-theme", currentTheme);
             localStorage.setItem("theme", currentTheme);
             updateThemeIcon(currentTheme);
+            initParticles();
         });
     }
 
