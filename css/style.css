@@ -122,6 +122,14 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+#particles-js {
+	transition: opacity 0.3s ease;
+}
+
+[data-theme="light"] #particle-js {
+	opacity: 0.35;
+}
+
 /* Button position */
 .theme-toggle-btn {
   position: fixed;
