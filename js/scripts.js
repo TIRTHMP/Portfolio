@@ -189,29 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "retina_detect": true
         });
     }
-
-    <script>
-  const themeToggleBtn = document.getElementById("themeToggle");
-  const userPref = localStorage.getItem("theme");
-
-  // Apply saved theme on load
-  if (userPref) {
-    document.body.classList.add(userPref);
-    themeToggleBtn.textContent = userPref === "dark" ? "☀️" : "🌙";
-  }
-
-  // Toggle function
-  themeToggleBtn.addEventListener("click", () => {
-    const isDark = document.body.classList.toggle("dark");
-    const newTheme = isDark ? "dark" : "light";
-    localStorage.setItem("theme", newTheme);
-
-    // Change button icon
-    themeToggleBtn.textContent = isDark ? "☀️" : "🌙";
-  });
-</script>
-
-    
+  
     // Animate elements when they come into view
     const animateOnScroll = function() {
         const elements = document.querySelectorAll('.card-hover, .book, .timeline-item');
