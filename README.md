@@ -154,7 +154,7 @@ Gradient colors are defined in the CSS. Main theme colors:
 
 ---
 
-###🚀 Future Updates
+### 🚀 Future Updates
 
 - Add a certificates section with viewable certificates
 - Add a light/dark toggle
@@ -188,7 +188,8 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 ---
 
 ## 🙏 Acknowledgments
-
+
+
 - Font Awesome for icons
 - Tailwind CSS for utility classes
 - Particles.js for animated background
@@ -206,6 +207,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 ---
 -->
 > Made with ❤️ by Tirth Patel | Computer Science Sophomore | CyberSecurity Enthusiast 
+
 
 
 
