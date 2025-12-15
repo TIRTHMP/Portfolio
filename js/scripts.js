@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Theme Toggle (Default: Dark)
     const themeToggleBtn = document.getElementById("theme-toggle");
     const iconMoon = document.getElementById("icon-moon");
-    consr iconSun = document.getElementById("icon-sun");
+    const iconSun = document.getElementById("icon-sun");
 
     //Apply saved theme or default to dark
     const savedTheme = localStorage.getItem("theme") || "dark";
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Toggle theme on click
     if (themeToggleBtn) {
         themeToggleBtn.addEventListener("click", () => {
-            const currentTheme = document.documentElement.getAttributes("data-theme") === "dark" ? "light" : "dark";
+            const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
 
             document.documentElement.setAttribute("data-theme", currentTheme);
             localStorage.setItem("theme", currentTheme);
