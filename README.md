@@ -183,8 +183,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 ---
 
 ## 🙏 Acknowledgments
-
-- Harvard CS50 AI course for project inspiration
+
 - Font Awesome for icons
 - Tailwind CSS for utility classes
 - Particles.js for animated background
@@ -201,7 +200,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 
 ---
 -->
-> Made with ❤️ by Tirth Patel | Computer Science Sophomore | AI/ML Enthusiast
+> Made with ❤️ by Tirth Patel | Computer Science Sophomore | CyberSecurity Enthusiast 
 
 
 
