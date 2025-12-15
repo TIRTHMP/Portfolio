@@ -1,5 +1,37 @@
 // Particle.js background initialization
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Theme Toggle (Default: Dark)
+    const themeToggleBtn = document.getElementById("theme-toggle");
+    const iconMoon = document.getElementById("icon-moon");
+    consr iconSun = document.getElementById("icon-sun");
+
+    //Apply saved theme or default to dark
+    const savedTheme = localStorage.getItem("theme") || "dark";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateThemeIcon(savedTheme);
+
+    //Toggle theme on click
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener("click", () => {
+            const currentTheme = document.documentElement.getAttributes("data-theme") === "dark" ? "light" : "dark";
+
+            document.documentElement.setAttribute("data-theme", currentTheme);
+            localStorage.setItem("theme", currentTheme);
+            updateThemeIcon(currentTheme);
+        });
+    }
+
+    // Update icons
+    function updateThemeIcon(theme) {
+        if (theme === "light") {
+            iconMoon.classList.add("hidden");
+            iconSun.classList.remove("hidden");
+        } else {
+            iconSun.classList.add("hidden");
+            iconMoon.classList.remove("hidden");
+        }
+    }
     
     // Mobile menu toggle
     const menuToggle = document.getElementById('menu-toggle');
