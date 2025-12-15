@@ -154,6 +154,11 @@ Gradient colors are defined in the CSS. Main theme colors:
 
 ---
 
+###🚀 Future Updates
+
+- Add a certificates section with viewable certificates
+- Add a light/dark toggle
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
