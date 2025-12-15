@@ -6,8 +6,8 @@
 - **Accessibility** - ARIA labels, keyboard navigation, semantic HTML
 - **Performance Optimized** - Lazy loading, deferred scripts, external assets
 - **PWA Ready** - Manifest file for progressive web app capabilities
-<!-- - **Project Showcase** - 10 AI/ML projects with detailed descriptions -->
-- **Certifications Display** - Timeline view of achievements
+<!-- - **Project Showcase** - 10 AI/ML projects with detailed descriptions 
+- **Certifications Display** - Timeline view of achievements -->
 - **Contact Section** - Multiple ways to get in touch
 
 ---
