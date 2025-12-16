@@ -105,13 +105,6 @@ html {
 	--particle-line: #2563eb;
 }
 
-/* Apply the variables */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
 #particles-js {
 	transition: opacity 0.3s ease;
 }
@@ -177,7 +170,42 @@ body {
 	box-shadow: 0 20px 45px rgba(34, 211, 238, 0.25);
 } 
 
+/* ===============================
+   Theme Cards (Light + Dark)
+================================ */
 
+.theme-card {
+  background-color: var(--bg-card);
+  border-radius: 16px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* LIGHT THEME – make cards clearly visible */
+[data-theme="light"] .theme-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* DARK THEME – depth without borders */
+[data-theme="dark"] .theme-card {
+  background-color: rgba(17, 24, 39, 0.75);
+  border: none !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Improve text contrast inside cards */
+[data-theme="light"] .theme-card p,
+[data-theme="light"] .theme-card span,
+[data-theme="light"] .theme-card h3 {
+  color: #1f2937;
+}
+
+[data-theme="dark"] .theme-card p,
+[data-theme="dark"] .theme-card span,
+[data-theme="dark"] .theme-card h3 {
+  color: #e5e7eb;
+}
 
 
 /* ===========================
@@ -262,3 +290,6 @@ body {
 [data-theme="dark"] .theme-card {
   border: none !important;
 }
+
+
+
