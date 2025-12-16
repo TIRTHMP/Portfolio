@@ -157,9 +157,7 @@ Gradient colors are defined in the CSS. Main theme colors:
 ### 🚀 Future Updates
 
 - Add a certificates section with viewable certificates
-- Add a light/dark toggle with a morph animation(Added)
 - Make the theme consistent with the device's (Desktop/Mobile) default theme
-- Adjust the page's background to be more consistent with the light theme
 
 ---
 
@@ -211,6 +209,7 @@ This project is open source and available under the [Apache 2.0 License](LICENSE
 ---
 -->
 > Made with ❤️ by Tirth Patel | Computer Science Sophomore | CyberSecurity Enthusiast 
+
 
 
 
