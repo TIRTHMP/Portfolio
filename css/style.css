@@ -250,3 +250,7 @@ body {
 }
 
 
+[data-theme="dark"] fieldset,
+[data-theme="dark"] legend {
+  border: none;
+}
