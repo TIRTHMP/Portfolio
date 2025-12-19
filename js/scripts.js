@@ -160,6 +160,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
+    function safeInitParticles() {
+        requestAnimationFrame(() => {
+            initParticles();
+        });
+    }
+
     // Theme Toggle (Default: Dark)
     const themeToggleBtn = document.getElementById("theme-toggle");
     const iconMoon = document.getElementById("icon-moon");
@@ -169,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedTheme = localStorage.getItem("theme") || "dark";
     document.documentElement.setAttribute("data-theme", savedTheme);
     updateThemeIcon(savedTheme);
-    initParticles();
+    safeInitParticles();
 
     //Toggle theme on click
     if (themeToggleBtn) {
@@ -179,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.documentElement.setAttribute("data-theme", currentTheme);
             localStorage.setItem("theme", currentTheme);
             updateThemeIcon(currentTheme);
-            initParticles();
+            safeInitParticles();
         });
     }
 
@@ -196,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    initParticles();
+    safeInitParticles();
     
     // Set initial styles for animated elements
     document.querySelectorAll('.card-hover, .book, .timeline-item').forEach(element => {
