@@ -182,10 +182,17 @@ document.addEventListener('DOMContentLoaded', function() {
         themeToggleBtn.addEventListener("click", () => {
             const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
 
+            document.documentElement.classList.add("no-theme-transition");
+
             document.documentElement.setAttribute("data-theme", currentTheme);
             localStorage.setItem("theme", currentTheme);
             updateThemeIcon(currentTheme);
             safeInitParticles();
+
+            setTimeout(() => {
+              document.documentElement.classList.remove("no-theme-transition");
+            }, 50);
+
         });
     }
 
