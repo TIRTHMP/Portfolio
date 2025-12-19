@@ -1,23 +1,3 @@
-/* ===============================
-   BUTTER SMOOTH THEME TRANSITION
-================================ */
-
-html {
-  transition: background-color 0.35s ease, color 0.35s ease;
-}
-
-/* Animate ONLY theme-driven elements */
-body,
-.theme-section,
-.theme-card,
-.theme-input,
-nav {
-  transition:
-    background-color 0.35s ease,
-    color 0.35s ease,
-    border-color 0.35s ease;
-}
-
 /* Loading Animation Styles */
 #loader.fade-out {
 	opacity: 0;
@@ -126,7 +106,7 @@ html {
 }
 
 #particles-js {
-	transition: opacity 0.35s ease;
+	transition: opacity 0.3s ease;
 }
 
 /* Icon morph animation */
@@ -367,10 +347,4 @@ body {
   color: var(--text-muted);
 }
 
-/* Disable transitions during theme switch */
-.no-theme-transition *,
-.no-theme-transition *::before,
-.no-theme-transition *::after {
-  transition: none !important;
-}
 
