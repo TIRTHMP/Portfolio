@@ -347,4 +347,10 @@ body {
   color: var(--text-muted);
 }
 
+/* Disable transitions during theme switch */
+.no-theme-transition *,
+.no-theme-transition *::before,
+.no-theme-transition *::after {
+  transition: none !important;
+}
 
