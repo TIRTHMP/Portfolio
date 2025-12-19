@@ -161,9 +161,15 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     function safeInitParticles() {
-        requestAnimationFrame(() => {
+        const el = document.getElementById("particles-js");
+        if (!el) return:
+
+            el.style.opacity = "0";
+
+        setTimeout(() => {
             initParticles();
-        });
+            el.style.opacity = "1";
+        }, 120);
     }
 
     const themeToggleBtn = document.getElementById("theme-toggle");
