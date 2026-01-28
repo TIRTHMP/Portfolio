@@ -196,11 +196,11 @@
 
         /* Hero Section */
         .hero {
-            min-height: 100vh;
             display: flex;
             align-items: center;
-            padding-top: 80px;
+            padding: 120px 0 80px 0;
             position: relative;
+            min-height: 600px;
         }
 
         .hero-content {
@@ -259,9 +259,9 @@
         }
 
         .btn-primary {
-            background: var(--accent-green);
+            background: transparent;
             border-color: var(--accent-green);
-            color: var(--bg-primary);
+            color: var(--accent-green);
         }
 
         .btn-primary::before {
@@ -271,7 +271,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: var(--accent-cyan);
+            background: var(--accent-green);
             transition: left 0.3s ease;
             z-index: -1;
         }
@@ -281,8 +281,8 @@
         }
 
         .btn-primary:hover {
-            border-color: var(--accent-cyan);
-            box-shadow: 0 0 30px var(--glow-cyan);
+            color: var(--bg-primary);
+            box-shadow: 0 0 30px var(--glow-green);
         }
 
         .btn-secondary {
@@ -341,12 +341,12 @@
 
         /* Section Styles */
         section {
-            padding: 120px 0;
+            padding: 80px 0;
             position: relative;
         }
 
         .section-header {
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .section-tag {
@@ -877,13 +877,13 @@
             <div class="logo">&lt;/dev&gt;</div>
             <div class="nav-content">
                 <ul class="nav-links">
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#certificates">certificates</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="https://drive.google.com/your-resume-link" target="_blank" class="resume-btn">
+                <a href="https://docs.google.com/document/d/1vTJnXQeWyyFbCAAhOO-vX9a2y7O3bW2i/edit?usp=sharing&ouid=112305101573832377859&rtpof=true&sd=true" target="_blank" class="resume-btn">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path d="M7 18V15M12 18V12M17 18V9M3 21H21M3 7L12 3L21 7V9H3V7Z" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -977,17 +977,11 @@
                     </h3>
                     <div class="skill-tags">
                         <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express</span>
                         <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">REST APIs</span>
                         <span class="skill-tag">Git</span>
                     </div>
                 </div>
-                <div class="skill-category reveal">
+        <!--        <div class="skill-category reveal">
                     <h3>
                         <span class="skill-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1007,7 +1001,7 @@
                         <span class="skill-tag">Linux Security</span>
                         <span class="skill-tag">Network Analysis</span>
                     </div>
-                </div>
+                </div>    -->
                 <div class="skill-category reveal">
                     <h3>
                         <span class="skill-icon">
@@ -1024,8 +1018,6 @@
                         <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">Java</span>
                         <span class="skill-tag">C/C++</span>
-                        <span class="skill-tag">Bash</span>
-                        <span class="skill-tag">SQL</span>
                     </div>
                 </div>
                 <div class="skill-category reveal">
@@ -1038,12 +1030,9 @@
                         Tools & Technologies
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Docker</span>
                         <span class="skill-tag">Linux</span>
                         <span class="skill-tag">VS Code</span>
                         <span class="skill-tag">Kali Linux</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Postman</span>
                         <span class="skill-tag">GitHub</span>
                     </div>
                 </div>
@@ -1051,7 +1040,7 @@
         </div>
     </section>
 
-    <!-- Certificates Section -->
+    <!-- Certificates Section 
     <section id="certificates">
         <div class="container">
             <div class="section-header reveal">
@@ -1129,9 +1118,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
 
-    <!-- Projects Section -->
+    <!-- Projects Section 
     <section id="projects">
         <div class="container">
             <div class="section-header reveal">
@@ -1272,7 +1261,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
 
     <!-- Contact Section -->
     <section id="contact">
@@ -1294,7 +1283,7 @@
                             </svg>
                         </div>
                         <h3>Email</h3>
-                        <a href="mailto:hello@yourportfolio.dev">hello@yourportfolio.dev</a>
+                        <a href="mailto:tirthmpatel25@gmail.com">tirthmpatel25@gmail.com</a>
                     </div>
                     <div class="contact-method reveal">
                         <div class="contact-icon">
@@ -1305,7 +1294,7 @@
                             </svg>
                         </div>
                         <h3>LinkedIn</h3>
-                        <a href="#">linkedin.com/in/yourname</a>
+                        <a href="#">https://www.linkedin.com/in/tirth-p-b46aab32a/</a>
                     </div>
                     <div class="contact-method reveal">
                         <div class="contact-icon">
@@ -1314,7 +1303,7 @@
                             </svg>
                         </div>
                         <h3>GitHub</h3>
-                        <a href="#">github.com/yourusername</a>
+                        <a href="#">github.com/TIRTHMP</a>
                     </div>
                 </div>
             </div>
@@ -1324,7 +1313,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2026 <span class="footer-text">YourName</span>. Built with passion for code and security.</p>
+            <p>© 2026 <span class="footer-text">Tirth Patel</span>. Built with passion for code and security.</p>
         </div>
     </footer>
 
