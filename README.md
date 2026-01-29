@@ -215,7 +215,7 @@ Feel free to reach out if you have questions or want to connect!
 ---
 
 <div align="center">
-  <p>Made with 💚 by [Your Name]</p>
+  <p>Made with 💚 by Tirth Patel</p>
   <p>⭐ Star this repo if you found it helpful!</p>
 </div>
 
@@ -223,4 +223,5 @@ Feel free to reach out if you have questions or want to connect!
 ---
 
 **Note**: Replace placeholder text with your actual information before deploying!
+
 
