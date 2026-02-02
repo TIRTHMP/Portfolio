@@ -1,228 +1,174 @@
-# 🔒 Developer Portfolio
+# PERSONAL PORTFOLIO
+#### Video Demo:  https://youtu.be/g6w02JLWcUE
+#### Description:
 
-A modern, cybersecurity-themed portfolio website showcasing my skills in web development and cybersecurity. Built with a terminal/hacker aesthetic featuring matrix rain effects, smooth animations, and a distinctive neon design.
+# 💻 Portfolio Website - CS Student & Web Developer
 
-![Portfolio Preview](https://img.shields.io/badge/Status-WIP-success?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-## 🌟 Features
-
-- **🎨 Unique Design**: Cyberpunk/hacker aesthetic with neon green and cyan color scheme
-- **✨ Matrix Background**: Animated matrix rain effect with Japanese characters
-- **🖥️ Terminal Theme**: Monospace fonts and command-line inspired UI elements
-- **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- **🎭 Smooth Animations**: Scroll-reveal effects and hover interactions
-- **⚡ Single File**: All HTML, CSS, and JavaScript in one file for easy deployment
-- **♿ Accessible**: Semantic HTML and keyboard-friendly navigation
-
-## 📋 Sections
-
-1. **Hero** - Eye-catching introduction with animated cursor
-2. **About** - Personal background with interactive terminal box
-3. **Skills** - Technical skills organized by category (Web Dev, Security, Languages, Tools)
-4. **Certificates** - Professional certifications with gradient card design
-5. **Projects** - Portfolio showcase with tech stacks and live demo links
-6. **Contact** - Multiple contact methods with hover effects
-
-## 🚀 Quick Start
-
-### View Live Demo
-
-Visit the live site: https://tirthmp.github.io/Portfolio-main/
-
-### Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Simply open the HTML file in your browser
-   open index.html
-   # or
-   start index.html
-   # or double-click the file
-   ```
-
-3. **Edit and customize**
-   - Open `index.html` in your favorite code editor
-   - Customize the content, colors, and information
-   - Save and refresh your browser to see changes
-
-## 🛠️ Customization Guide
-
-### Change Personal Information
-
-Look for these sections in `index.html`:
-
-```html
-<!-- Update your name -->
-<h1>Your Name Here</h1>
-
-<!-- Update your tagline -->
-<p>Your description here...</p>
-
-<!-- Update contact information -->
-<a href="mailto:your.email@example.com">your.email@example.com</a>
-```
-
-### Modify Colors
-
-Find the `:root` CSS variables at the top of the `<style>` section:
-
-```css
-:root {
-    --bg-primary: #0a0e14;        /* Main background */
-    --accent-green: #00ff9f;      /* Primary accent */
-    --accent-cyan: #00d4ff;       /* Secondary accent */
-    /* Modify these to change the entire color scheme */
-}
-```
-
-### Add Your Projects
-
-Locate the projects section and duplicate this structure:
-
-```html
-<div class="project-card reveal">
-    <div class="project-header">
-        <div class="project-type">PROJECT CATEGORY</div>
-        <h3>Project Name</h3>
-    </div>
-    <div class="project-body">
-        <p class="project-description">Your project description</p>
-        <div class="project-tech">
-            <span class="tech-badge">Tech 1</span>
-            <span class="tech-badge">Tech 2</span>
-        </div>
-        <div class="project-links">
-            <a href="#" class="project-link">→ View Code</a>
-            <a href="#" class="project-link">→ Live Demo</a>
-        </div>
-    </div>
+<div align="center">
+  
+  ![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge)
+  ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+  ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+  
+  **[View Live Portfolio](https://tirthmp.github.io/Portfolio/)**
+  
 </div>
+
+## 📋 About
+
+Welcome to my personal portfolio website! This project showcases my journey as a Computer Science student with a passion for web development. The portfolio highlights my technical skills, certifications, and projects in a modern, responsive design.
+
+### ✨ Key Features
+
+- **Responsive Design** - Seamless experience across all devices
+- **Interactive UI** - Terminal-themed sections with smooth animations
+- **Project Showcase** - Detailed presentation of full-stack and security projects
+- **Certification Display** - Professional credentials and achievements
+- **Contact Integration** - Easy ways to connect and collaborate
+
+## 🛠️ Built With
+
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Modern styling with animations and transitions
+- **JavaScript** - Interactive functionality and dynamic content
+- **GitHub Pages** - Free, reliable hosting
+
+## 🎯 Sections
+
+### 1️⃣ About Me
+Get to know my background, interests, and what drives my passion for technology and security.
+
+### 2️⃣ Technical Arsenal
+Comprehensive overview of my skills in:
+- Web Development (JavaScript, HTML/CSS, Git)
+- Programming Languages (Python, Java, C/C++)
+- Tools & Technologies (Linux, Kali Linux, VS Code)
+
+### 3️⃣ Certifications
+Professional credentials including:
+- Industry job simulations from Accenture, Deloitte, and Tata
+
+### 4️⃣ Projects
+Featured projects demonstrating full-stack development and security expertise:
+- **Vaultify Application**
+- **AI Web Scrapper** 
+- **Portfolio Website**
+- **ZORA A.I.** 
+
+### 5️⃣ Contact
+Multiple channels for collaboration and networking.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- A modern web browser
+- Git (for cloning the repository)
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/TIRTHMP/Portfolio.git
 ```
 
-### Update Certificates
-
-Find the certificates section and modify:
-
-```html
-<div class="certificate-card reveal">
-    <div class="cert-icon">🔒</div>
-    <h3>Certificate Name</h3>
-    <div class="cert-issuer">Issuing Organization</div>
-    <div class="cert-date">Month Year</div>
-</div>
+2. Navigate to the project directory
+```bash
+cd Portfolio
 ```
 
-## 🎨 Design Choices
+3. Open `index.html` in your browser
+```bash
+# On macOS
+open index.html
 
-### Typography
-- **Display Font**: JetBrains Mono - Bold, technical feel perfect for developers
-- **Body Font**: Fira Code - Clean, readable monospace font with coding ligatures
+# On Linux
+xdg-open index.html
 
-### Color Palette
-- **Primary Background**: Deep dark blue (#0a0e14)
-- **Accent Green**: Neon green (#00ff9f) - Represents code, success, and tech
-- **Accent Cyan**: Electric cyan (#00d4ff) - Adds futuristic, digital feel
-- **Accent Purple**: Soft purple (#b877db) - Used for special highlights
+# On Windows
+start index.html
+```
 
-### Animation Strategy
-- Scroll-reveal animations for engagement
-- Hover effects on interactive elements
-- Matrix rain background for atmosphere
-- Scanline effect for retro-terminal aesthetic
+### Deployment
 
-## 📦 Technologies Used
+This portfolio is deployed on GitHub Pages. To deploy your own version:
 
-- **HTML5** - Semantic markup
-- **CSS3** - Custom properties, Grid, Flexbox, Animations
-- **JavaScript** - DOM manipulation, Scroll effects, Dynamic content
-- **Google Fonts** - JetBrains Mono, Fira Code
+1. Fork this repository
+2. Go to repository Settings > Pages
+3. Select the branch to deploy (usually `main` or `master`)
+4. Save and wait for deployment
+5. Access your portfolio at `https://[username].github.io/Portfolio/`
 
-## 🌐 Deployment
+## 📁 Project Structure
 
-### GitHub Pages
+```
+Portfolio/
+├── index.html          # Main HTML file
+├── css/
+│   └── styles.css     # Stylesheet
+├── js/
+│   └── script.js      # JavaScript functionality
+├── assets/
+│   └── images/        # Images and icons
+└── README.md          # This file
+```
 
-1. **Rename file to `index.html`** (if not already)
-2. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-3. **Enable GitHub Pages**
-   - Go to repository Settings
-   - Navigate to "Pages" section
-   - Select "main" branch
-   - Click Save
-   - Your site will be live at `https://yourusername.github.io/repository-name/`
+## 🎨 Customization
 
-### Other Hosting Options
+To customize this portfolio for your own use:
 
-- **Netlify**: Drag and drop the HTML file
-- **Vercel**: Connect your GitHub repository
-- **Cloudflare Pages**: Deploy via Git integration
-- **Surge.sh**: `surge index.html`
+1. **Update Personal Information**
+   - Edit the About section in `index.html`
+   - Replace email, LinkedIn, and GitHub links
 
-## 📱 Browser Support
+2. **Add Your Projects**
+   - Modify the Projects section with your own work
+   - Update project descriptions and tech stacks
 
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Opera (latest)
+3. **Update Skills**
+   - Add or remove skills in the Technical Arsenal section
+   - Adjust based on your expertise
 
-## 🐛 Known Issues
-
-None at the moment! If you find any bugs, please open an issue.
+4. **Modify Styling**
+   - Edit `styles.css` to change colors, fonts, and layout
+   - Customize animations and transitions
 
 ## 🤝 Contributing
 
-While this is a personal portfolio template, suggestions and improvements are welcome!
+While this is a personal portfolio, I welcome suggestions and improvements!
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 💡 Inspiration & Credits
+## 📧 Contact
 
-- **Matrix Effect**: Inspired by the iconic Matrix digital rain
-- **Color Scheme**: Cyberpunk and hacker culture aesthetics
-- **Typography**: Developer-focused monospace fonts
-- **Design Philosophy**: Terminal interfaces and command-line tools
+**Tirth Patel**
 
-## 📬 Contact
+- Email: [tirthmpatel25@gmail.com](mailto:tirthmpatel25@gmail.com)
+- LinkedIn: [Tirth Patel](https://www.linkedin.com/in/tirth-p-b46aab32a/)
+- GitHub: [@TIRTHMP](https://github.com/TIRTHMP)
+- Portfolio: [tirthmp.github.io/Portfolio](https://tirthmp.github.io/Portfolio/)
 
-Feel free to reach out if you have questions or want to connect!
+## 🙏 Acknowledgments
 
-- **Email**: tirthmpatel25@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [@yourusername](https://github.com/TIRTHMP)
+- Inspired by the cybersecurity and web development communities
+- Thanks to all open-source contributors whose tools made this possible
+- Special appreciation to mentors and colleagues who provided guidance
 
 ---
 
 <div align="center">
-  <p>Made with 💚 by Tirth Patel</p>
-  <p>⭐ Star this repo if you found it helpful!</p>
+  
+  **"Security is not a product, but a process." - Bruce Schneier**
+  
+  Made with 💙 by Tirth Patel
+  
+  ⭐ Star this repo if you find it helpful!
+  
 </div>
-
-
----
-
-**Note**: Replace placeholder text with your actual information before deploying!
-
-
-
