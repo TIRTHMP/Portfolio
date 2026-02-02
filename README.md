@@ -1,7 +1,3 @@
-# PERSONAL PORTFOLIO
-#### Video Demo:  https://youtu.be/g6w02JLWcUE
-#### Description:
-
 # 💻 Portfolio Website - CS Student & Web Developer
 
 <div align="center">
@@ -172,3 +168,4 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
