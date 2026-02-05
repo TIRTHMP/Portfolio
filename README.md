@@ -41,8 +41,9 @@ Comprehensive overview of my skills in:
 - Tools & Technologies (Docker, MongoDB, VS Code)
 
 ### 3️⃣ Certifications
-Professional credentials including:
-- Industry job simulations from Accenture, Deloitte, and Tata
+- CS50's Introduction to Computer Science 
+- HTML, CSS and JavaScript  
+- Java 
 
 ### 4️⃣ Projects
 Featured projects demonstrating full-stack development and security expertise:
@@ -153,9 +154,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Inspired by the cybersecurity and web development communities
+- Inspired by Harvard's CS50 course
 - Thanks to all open-source contributors whose tools made this possible
-- Special appreciation to mentors and colleagues who provided guidance
 
 ---
 
@@ -168,5 +168,6 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
