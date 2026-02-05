@@ -38,7 +38,7 @@ Get to know my background, interests, and what drives my passion for technology 
 Comprehensive overview of my skills in:
 - Web Development (JavaScript, HTML/CSS, Git)
 - Programming Languages (Python, Java, C/C++)
-- Tools & Technologies (Linux, Kali Linux, VS Code)
+- Tools & Technologies (Docker, MongoDB, VS Code)
 
 ### 3️⃣ Certifications
 Professional credentials including:
@@ -168,4 +168,5 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
