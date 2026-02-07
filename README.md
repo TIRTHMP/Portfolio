@@ -47,10 +47,10 @@ Comprehensive overview of my skills in:
 
 ### 4️⃣ Projects
 Featured projects demonstrating full-stack development and security expertise:
-- **Vaultify Application**
-- **AI Web Scrapper** 
+- **Vaultify Application (WIP)**
+- **AI Web Scrapper (WIP)**
 - **Portfolio Website**
-- **ZORA A.I.** 
+- **ZORA A.I. (WIP)**
 
 ### 5️⃣ Contact
 Multiple channels for collaboration and networking.
@@ -168,6 +168,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
