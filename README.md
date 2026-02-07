@@ -161,13 +161,14 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
   
-  **"Security is not a product, but a process." - Bruce Schneier**
+  **"Code is like humor. When you have to explain it, it's bad."- Cory House**
   
   Made with 💙 by Tirth Patel
   
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
