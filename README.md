@@ -99,13 +99,7 @@ This portfolio is deployed on GitHub Pages. To deploy your own version:
 
 ```
 Portfolio/
-├── index.html          # Main HTML file
-├── css/
-│   └── styles.css     # Stylesheet
-├── js/
-│   └── script.js      # JavaScript functionality
-├── assets/
-│   └── images/        # Images and icons
+├── index.html          # Main HTML file
 └── README.md          # This file
 ```
 
