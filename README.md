@@ -99,7 +99,7 @@ This portfolio is deployed on GitHub Pages. To deploy your own version:
 
 ```
 Portfolio/
-├── index.html          # Main HTML file
+├── index.html          # Main HTML file
 └── README.md          # This file
 ```
 
@@ -160,6 +160,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
