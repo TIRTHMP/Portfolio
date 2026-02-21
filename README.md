@@ -22,7 +22,7 @@ Welcome to my personal portfolio website! This project showcases my journey as a
 - **Certification Display** - Professional credentials and achievements
 - **Contact Integration** - Easy ways to connect and collaborate
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - **HTML5** - Semantic markup and structure
 - **CSS3** - Modern styling with animations and transitions
@@ -143,7 +143,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Email: [tirthmpatel25@gmail.com](mailto:tirthmpatel25@gmail.com)
 - LinkedIn: [Tirth Patel](https://www.linkedin.com/in/tirth-p-b46aab32a/)
-- GitHub: [@TIRTHMP](https://github.com/TIRTHMP)
+- GitHub: [TIRTHMP](https://github.com/TIRTHMP)
 - Portfolio: [tirthmp.github.io/Portfolio](https://tirthmp.me/)
 
 ## 🙏 Acknowledgments
@@ -160,6 +160,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
