@@ -39,6 +39,7 @@ Comprehensive overview of my skills in:
 - Web Development (JavaScript, HTML/CSS, Git)
 - Programming Languages (Python, Java, C/C++)
 - Tools & Technologies (Docker, MongoDB, VS Code)
+- Mobile Development (React Native, Expo, EAS Build)
 
 ### 3️⃣ Certifications
 - CS50's Introduction to Computer Science 
@@ -47,6 +48,7 @@ Comprehensive overview of my skills in:
 
 ### 4️⃣ Projects
 Featured projects demonstrating full-stack development and security expertise:
+- **VaultX**
 - **Vaultify Application (WIP)**
 - **AI Web Scrapper (WIP)**
 - **Portfolio Website**
@@ -160,6 +162,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
