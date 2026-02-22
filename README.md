@@ -34,7 +34,9 @@ Welcome to my personal portfolio website! This project showcases my journey as a
 
 ```
 Portfolio/
-├── index.html          # Main HTML file
+├── index.html         # Main HTML file
+├── style.css          # Custom CSS styles
+├── script.js          # Javascript functionality
 └── README.md          # This file
 ```
 
@@ -135,6 +137,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
