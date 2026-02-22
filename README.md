@@ -37,6 +37,7 @@ Portfolio/
 ├── index.html         # Main HTML file
 ├── style.css          # Custom CSS styles
 ├── script.js          # Javascript functionality
+├── favicon.ico        # Custom favicon 
 └── README.md          # This file
 ```
 
@@ -137,6 +138,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
