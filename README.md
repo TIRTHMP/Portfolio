@@ -18,7 +18,7 @@ Welcome to my personal portfolio website! This project showcases my journey as a
 
 - **Responsive Design** - Seamless experience across all devices
 - **Interactive UI** - Terminal-themed sections with smooth animations
-- **Project Showcase** - Detailed presentation of full-stack and security projects
+- **Project Showcase** - Detailed presentation of full-stack projects
 - **Certification Display** - Professional credentials and achievements
 - **Contact Integration** - Easy ways to connect and collaborate
 
@@ -29,33 +29,14 @@ Welcome to my personal portfolio website! This project showcases my journey as a
 - **JavaScript** - Interactive functionality and dynamic content
 - **GitHub Pages** - Free, reliable hosting
 
-## 🎯 Sections
 
-### 1️⃣ About Me
-Get to know my background, interests, and what drives my passion for technology and security.
+## 📁 Project Structure
 
-### 2️⃣ Technical Arsenal
-Comprehensive overview of my skills in:
-- Web Development (JavaScript, HTML/CSS, Git)
-- Programming Languages (Python, Java, C/C++)
-- Tools & Technologies (Docker, MongoDB, VS Code)
-- Mobile Development (React Native, Expo, EAS Build)
-
-### 3️⃣ Certifications
-- CS50's Introduction to Computer Science 
-- HTML, CSS and JavaScript  
-- Java 
-
-### 4️⃣ Projects
-Featured projects demonstrating full-stack development and security expertise:
-- **VaultX**
-- **Vaultify Application (WIP)**
-- **AI Web Scrapper (WIP)**
-- **Portfolio Website**
-- **ZORA A.I. (WIP)**
-
-### 5️⃣ Contact
-Multiple channels for collaboration and networking.
+```
+Portfolio/
+├── index.html          # Main HTML file
+└── README.md          # This file
+```
 
 ## 🚀 Getting Started
 
@@ -97,14 +78,6 @@ This portfolio is deployed on GitHub Pages. To deploy your own version:
 4. Save and wait for deployment
 5. Access your portfolio at `https://[username].github.io/Portfolio/`
 
-## 📁 Project Structure
-
-```
-Portfolio/
-├── index.html          # Main HTML file
-└── README.md          # This file
-```
-
 ## 🎨 Customization
 
 To customize this portfolio for your own use:
@@ -122,7 +95,7 @@ To customize this portfolio for your own use:
    - Adjust based on your expertise
 
 4. **Modify Styling**
-   - Edit `styles.css` to change colors, fonts, and layout
+   - Edit `index.html` to change colors, fonts, and layout
    - Customize animations and transitions
 
 ## 🤝 Contributing
@@ -162,6 +135,7 @@ This project is open source and available under the [MIT License](LICENSE).
   ⭐ Star this repo if you find it helpful!
   
 </div>
+
 
 
 
