@@ -32,26 +32,10 @@
                     Resume
                 </a>
             </div>
-            <!-- Hamburger button (mobile only) -->
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
     </nav>
 
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-        <ul class="mobile-nav-links">
-            <li><a href="#about" class="mobile-nav-link">About</a></li>
-            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
-            <li><a href="#certificates" class="mobile-nav-link">Certificates</a></li>
-            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
-            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
-        </ul>
-        <a href="https://docs.google.com/document/d/1vTJnXQeWyyFbCAAhOO-vX9a2y7O3bW2i/edit?usp=sharing&ouid=112305101573832377859&rtpof=true&sd=true" target="_blank" class="mobile-resume-btn">Resume</a>
-    </div>
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -62,14 +46,6 @@
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
-            </div>
-        </div>
-        <!-- Scroll indicator -->
-        <div class="scroll-indicator" id="scrollIndicator">
-            <span class="scroll-label">scroll</span>
-            <div class="scroll-chevrons">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"/></svg>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"/></svg>
             </div>
         </div>
     </section>
@@ -332,59 +308,45 @@
             <div class="projects-grid">
 
                 <!-- VaultX -->
-                <div class="project-card" id="vaultx">
+                <div class="project-card reveal">
                     <div class="project-header">
-                        <span class="project-path">~/projects/VaultX</span>
-                        <div class="project-tags">
-                            <span class="tag">Mobile App</span>
-                            <span class="tag">Security</span>
-                            <span class="tag">Full Stack</span>
+                        <div class="card-dots">
+                            <div class="card-dot card-dot-r"></div>
+                            <div class="card-dot card-dot-y"></div>
+                            <div class="card-dot card-dot-g"></div>
                         </div>
+                        <div class="card-path">~/projects/<span>VaultX</span></div>
                     </div>
-
-                    <div class="project-content">
-                        <div class="terminal-line">
-                            <span class="prompt">$</span>
-                            <span class="command"> cat README.md</span>
+                    <div class="project-body">
+                        <div class="badge-row">
+                            <span class="badge badge-type">Mobile App</span>
+                            <span class="badge badge-ai">Security</span>
+                            <span class="badge badge-type">Full Stack</span>
                         </div>
-
-                        <h3 class="project-title">Vault<em>X</em> 🔐</h3>
-
-                        <p class="project-desc">
-                            A full-stack biometric-secured mobile vault for Android & iOS. Store payment cards,
-                            passwords, and documents behind fingerprint/Face ID authentication with
-                            end-to-end encryption, card flip animations, and real-time cloud sync via Supabase.
-                        </p>
-
-                        <div class="project-section">
-                            <span class="section-label">// key features</span>
-                            <ul class="feature-list">
-                                <li><span class="arrow">→</span> Biometric Auth — Fingerprint &amp; Face ID on every action</li>
-                                <li><span class="arrow">→</span> Card Flip Animation — Front ↔ Back with secure notes</li>
-                                <li><span class="arrow">→</span> Swipe to Delete / Unlock with biometric gate</li>
-                                <li><span class="arrow">→</span> Google-style Password Manager with generator</li>
-                                <li><span class="arrow">→</span> Document vault — upload &amp; download any file type</li>
-                                <li><span class="arrow">→</span> Auto-Lock after inactivity + Master PIN reset</li>
-                                <li><span class="arrow">→</span> OTA updates via EAS — no reinstall needed</li>
-                            </ul>
+                        <div class="card-prompt" style="margin-top:13px;"><span>$</span> cat README.md</div>
+                        <h3>Vault<em>X</em> 🔐</h3>
+                        <p class="project-description">A <span class="hl">full-stack biometric mobile vault</span> for Android & iOS. Cards, passwords & documents — locked behind fingerprint auth and end-to-end encryption.</p>
+                        <div class="tech-label">// key features</div>
+                        <div class="project-tech">
+                            <span class="tech-badge">Card Flip Animation</span>
+                            <span class="tech-badge">Swipe to Delete / Unlock</span>
+                            <span class="tech-badge">Password Generator</span>
+                            <span class="tech-badge">Strength Meter</span>
+                            <span class="tech-badge">Document Upload & Download</span>
+                            <span class="tech-badge">Auto-Lock</span>
+                            <span class="tech-badge">Master PIN Reset</span>
                         </div>
-
-                        <div class="project-section">
-                            <span class="section-label">// stack</span>
-                            <div class="tech-stack">
-                                <span class="tech">React Native</span>
-                                <span class="tech">Expo SDK 53</span>
-                                <span class="tech">Supabase</span>
-                                <span class="tech">TypeScript</span>
-                                <span class="tech">Reanimated</span>
-                                <span class="tech">Biometrics</span>\
-                                <span class="tech">SecureStore</span>
-                                <span class="tech">EAS Build</span>
-                            </div>
+                        <div class="tech-label" style="margin-top:10px;">// stack</div>
+                        <div class="project-tech">
+                            <span class="tech-badge">React Native</span>
+                            <span class="tech-badge">Expo SDK 53</span>
+                            <span class="tech-badge">Supabase</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">EAS Build</span>
                         </div>
-
+                        <div class="card-divider"></div>
                         <div class="project-links">
-                            <a href="https://github.com/TIRTHMP/VaultX" class="project-link primary">→ View Code</a>
+                            <a href="https://github.com/TIRTHMP/VaultX" class="project-link project-link-primary" target="_blank">→ View Code</a>
                         </div>
                     </div>
                 </div>
