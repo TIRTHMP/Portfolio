@@ -308,46 +308,63 @@
             <div class="projects-grid">
 
                 <!-- VaultX -->
-                <div class="project-card reveal">
+                <div class="project-card" id="vaultx">
                     <div class="project-header">
-                        <div class="card-dots">
-                            <div class="card-dot card-dot-r"></div>
-                            <div class="card-dot card-dot-y"></div>
-                            <div class="card-dot card-dot-g"></div>
+                        <span class="project-path">~/projects/VaultX</span>
+                        <div class="project-tags">
+                            <span class="tag">Mobile App</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Full Stack</span>
                         </div>
-                        <div class="card-path">~/projects/<span>VaultX</span></div>
                     </div>
-                    <div class="project-body">
-                        <div class="badge-row">
-                            <span class="badge badge-type">Mobile App</span>
-                            <span class="badge badge-security">Security</span>
+
+                    <div class="project-content">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command"> cat README.md</span>
                         </div>
-                        <div class="card-prompt" style="margin-top:13px;"><span>$</span> cat README.md</div>
-                        <h3>Vault<em>X</em> 🔐</h3>
-                        <p class="project-description">A <span class="hl">biometric-secured mobile vault</span> for storing payment card details safely, with encrypted local storage and a fintech-inspired UI.</p>
-                        <div class="feature-label">// key features</div>
-                        <div class="feature-list">
-                            <span class="feature-item">Biometric Auth — Fingerprint &amp; Face ID</span>
-                            <span class="feature-item">Card Flip Animation (Front ↔ Back)</span>
-                            <span class="feature-item">Auto-Lock After Inactivity</span>
-                            <span class="feature-item">AES Encrypted Local Storage</span>
+
+                        <h3 class="project-title">Vault<em>X</em> 🔐</h3>
+
+                        <p class="project-desc">
+                            A full-stack biometric-secured mobile vault for Android & iOS. Store payment cards,
+                            passwords, and documents behind fingerprint/Face ID authentication with
+                            end-to-end encryption, card flip animations, and real-time cloud sync via Supabase.
+                        </p>
+
+                        <div class="project-section">
+                            <span class="section-label">// key features</span>
+                            <ul class="feature-list">
+                                <li><span class="arrow">→</span> Biometric Auth — Fingerprint &amp; Face ID on every action</li>
+                                <li><span class="arrow">→</span> Card Flip Animation — Front ↔ Back with secure notes</li>
+                                <li><span class="arrow">→</span> Swipe to Delete / Unlock with biometric gate</li>
+                                <li><span class="arrow">→</span> Google-style Password Manager with generator</li>
+                                <li><span class="arrow">→</span> Document vault — upload &amp; download any file type</li>
+                                <li><span class="arrow">→</span> Auto-Lock after inactivity + Master PIN reset</li>
+                                <li><span class="arrow">→</span> OTA updates via EAS — no reinstall needed</li>
+                            </ul>
                         </div>
-                        <div class="tech-label">// stack</div>
-                        <div class="project-tech">
-                            <span class="tech-badge">React Native</span>
-                            <span class="tech-badge">Expo</span>
-                            <span class="tech-badge">Reanimated</span>
-                            <span class="tech-badge">Biometrics</span>
-                            <span class="tech-badge">Secure Storage</span>
-                            <span class="tech-badge">EAS Build</span>
+
+                        <div class="project-section">
+                            <span class="section-label">// stack</span>
+                            <div class="tech-stack">
+                                <span class="tech">React Native</span>
+                                <span class="tech">Expo SDK 53</span>
+                                <span class="tech">Supabase</span>
+                                <span class="tech">TypeScript</span>
+                                <span class="tech">Reanimated</span>
+                                <span class="tech">Biometrics</span>\
+                                <span class="tech">SecureStore</span>
+                                <span class="tech">EAS Build</span>
+                            </div>
                         </div>
-                        <div class="card-divider"></div>
+
                         <div class="project-links">
-                            <a href="https://github.com/TIRTHMP/VaultX" class="project-link project-link-primary" target="_blank">→ View Code</a>
+                            <a href="https://github.com/TIRTHMP/VaultX" class="project-link primary">→ View Code</a>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- AI Web Scraper -->
                 <div class="project-card reveal">
                     <div class="project-header">
