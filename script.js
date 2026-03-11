@@ -48,6 +48,54 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// ── Hamburger menu ──
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+function toggleMenu(open) {
+    hamburger.classList.toggle('open', open);
+    mobileMenu.classList.toggle('open', open);
+    mobileMenu.setAttribute('aria-hidden', String(!open));
+    hamburger.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+}
+
+hamburger.addEventListener('click', () => {
+    const isOpen = hamburger.classList.contains('open');
+    toggleMenu(!isOpen);
+});
+
+// Close menu when a link is clicked
+document.querySelectorAll('.mobile-nav-link, .mobile-resume-btn').forEach(link => {
+    link.addEventListener('click', () => toggleMenu(false));
+});
+
+// Close on backdrop click (outside menu content)
+mobileMenu.addEventListener('click', (e) => {
+    if (e.target === mobileMenu) toggleMenu(false);
+});
+
+// Close on Escape
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && hamburger.classList.contains('open')) toggleMenu(false);
+});
+
+// ── Scroll indicator ──
+const scrollIndicator = document.getElementById('scrollIndicator');
+if (scrollIndicator) {
+    // Click scrolls to #about
+    scrollIndicator.addEventListener('click', () => {
+        const about = document.getElementById('about');
+        if (about) about.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // Hide once user scrolls past hero
+    window.addEventListener('scroll', () => {
+        const heroHeight = document.querySelector('.hero').offsetHeight;
+        scrollIndicator.classList.toggle('hidden', window.scrollY > heroHeight * 0.25);
+    }, { passive: true });
+}
+
 // Init
 createMatrixRain();
 window.addEventListener('scroll', reveal);
