@@ -26,7 +26,7 @@ function reveal() {
     reveals.forEach(element => {
         const windowHeight = window.innerHeight;
         const elementTop = element.getBoundingClientRect().top;
-        const elementVisible = 150;
+        const elementVisible = 0;
         
         if (elementTop < windowHeight - elementVisible) {
             element.classList.add('active');
@@ -52,33 +52,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 
-function toggleMenu(open) {
-    hamburger.classList.toggle('open', open);
-    mobileMenu.classList.toggle('open', open);
-    mobileMenu.setAttribute('aria-hidden', String(!open));
-    hamburger.setAttribute('aria-expanded', String(open));
-    document.body.style.overflow = open ? 'hidden' : '';
+if (hamburger && mobileMenu) {
+    function toggleMenu(open) {
+        hamburger.classList.toggle('open', open);
+        mobileMenu.classList.toggle('open', open);
+        mobileMenu.setAttribute('aria-hidden', String(!open));
+        hamburger.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    hamburger.addEventListener('click', () => {
+        const isOpen = hamburger.classList.contains('open');
+        toggleMenu(!isOpen);
+    });
+
+    document.querySelectorAll('.mobile-nav-link, .mobile-resume-btn').forEach(link => {
+        link.addEventListener('click', () => toggleMenu(false));
+    });
+
+    mobileMenu.addEventListener('click', (e) => {
+        if (e.target === mobileMenu) toggleMenu(false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && hamburger.classList.contains('open')) toggleMenu(false);
+    });
 }
-
-hamburger.addEventListener('click', () => {
-    const isOpen = hamburger.classList.contains('open');
-    toggleMenu(!isOpen);
-});
-
-// Close menu when a link is clicked
-document.querySelectorAll('.mobile-nav-link, .mobile-resume-btn').forEach(link => {
-    link.addEventListener('click', () => toggleMenu(false));
-});
-
-// Close on backdrop click (outside menu content)
-mobileMenu.addEventListener('click', (e) => {
-    if (e.target === mobileMenu) toggleMenu(false);
-});
-
-// Close on Escape
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && hamburger.classList.contains('open')) toggleMenu(false);
-});
 
 // ── Scroll indicator ──
 const scrollIndicator = document.getElementById('scrollIndicator');
