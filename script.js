@@ -99,3 +99,49 @@ if (scrollIndicator) {
 createMatrixRain();
 window.addEventListener('scroll', reveal);
 reveal();
+
+// ── Scroll Indicator ──────────────────────────────
+const scrollIndicator = document.getElementById('scroll-indicator');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  if (scrollIndicator) scrollIndicator.style.width = pct + '%';
+}, { passive: true });
+
+// ── Hamburger Menu ────────────────────────────────
+const hamburger   = document.getElementById('hamburger');
+const navContent  = document.querySelector('.nav-content');
+const navOverlay  = document.getElementById('navOverlay');
+
+function openMenu() {
+  navContent.classList.add('open');
+  navOverlay.classList.add('open');
+  hamburger.classList.add('open');
+  hamburger.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden'; // prevent scroll behind drawer
+}
+
+function closeMenu() {
+  navContent.classList.remove('open');
+  navOverlay.classList.remove('open');
+  hamburger.classList.remove('open');
+  hamburger.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+
+hamburger.addEventListener('click', () => {
+  navContent.classList.contains('open') ? closeMenu() : openMenu();
+});
+
+navOverlay.addEventListener('click', closeMenu);
+
+// Close on nav link click
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeMenu();
+});
