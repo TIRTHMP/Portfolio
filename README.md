@@ -122,7 +122,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Email: [tirthmpatel25@gmail.com](mailto:tirthmpatel25@gmail.com)
 - LinkedIn: [Tirth Patel](https://www.linkedin.com/in/tirth-p-b46aab32a/)
 - GitHub: [TIRTHMP](https://github.com/TIRTHMP)
-- Portfolio: [tirthmp.github.io/Portfolio](https://tirthmp.me/)
+- Portfolio: [tirthmp.me](https://tirthmp.me/)
 
 ## 🙏 Acknowledgments
 
